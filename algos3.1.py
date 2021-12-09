@@ -33,19 +33,3 @@ if __name__ == "__main__":
     print('Неотсортированный массив:', *list)
     randomized_quicksort(list, 0, len(list))
     print('  Отсортированный массив:', *list)
-
-'''with open('input.txt', 'w') as f:
-    f.write(str(5))
-    for i in range(10):
-        f.write(str(random.randint(1, 100)))
-with open('input.txt') as f:
-    n = int(f.readline())
-    list = f.readline()
-list = list.split()
-for i in range(n):
-    list[i] = int(list[i])
-print('Неотсортированный массив:', *list)
-randomized_quicksort(list, 0, len(list))
-with open('output.txt', 'w') as f:
-    f.write(list)
-print('  Отсортированный массив:', *list)'''
